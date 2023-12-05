@@ -2,8 +2,9 @@
     "name": "mongodb-atlas",
     "type": "mongodb-atlas",
     "config": {
-        "clusterName": "impacc-db-production",
+        "clusterName": "franchisee-backend",
         "readPreference": "primary",
         "wireProtocolEnabled": false
-    }
+    },
+    "version": 1
 }

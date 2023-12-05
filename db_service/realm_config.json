@@ -1,8 +1,8 @@
 {
-    "app_id": "impacc-backend-prod-app-szhmu",
+    "app_id": "application-0-lwtzx",
     "config_version": 20210101,
-    "name": "impacc-backend-prod-app",
-    "location": "DE-FF",
-    "deployment_model": "GLOBAL",
-    "environment": "production"
+    "name": "Application-0",
+    "location": "IN-MB",
+    "provider_region": "aws-ap-south-1",
+    "deployment_model": "LOCAL"
 }
