@@ -1,0 +1,57 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "address": {
+            "bsonType": "string"
+        },
+        "contactNumber": {
+            "bsonType": "string"
+        },
+        "contactPerson": {
+            "bsonType": "string"
+        },
+        "isActiveAccount": {
+            "bsonType": "bool"
+        },
+        "lastVisitNo": {
+            "bsonType": "int"
+        },
+        "lastVisitedDate": {
+            "bsonType": "date"
+        },
+        "offerAccepted": {
+            "bsonType": "bool"
+        },
+        "offerAcceptedDate": {
+            "bsonType": "date"
+        },
+        "offerPlaced": {
+            "bsonType": "bool"
+        },
+        "shopName": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "address",
+        "contactNumber",
+        "contactPerson",
+        "isActiveAccount",
+        "lastVisitedDate",
+        "lastVisitNo",
+        "shopName",
+        "userId"
+    ],
+    "title": "retailer"
+}

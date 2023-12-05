@@ -1,0 +1,8 @@
+{
+    "app_id": "impacc-backend-prod-app-szhmu",
+    "config_version": 20210101,
+    "name": "impacc-backend-prod-app",
+    "location": "DE-FF",
+    "deployment_model": "GLOBAL",
+    "environment": "production"
+}

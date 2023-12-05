@@ -1,0 +1,16 @@
+{
+    "id": "6234866ea434e3e434734077",
+    "name": "onUpdateRetailerStatus",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */4 * * *"
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "updateRetailerStatus"
+            }
+        }
+    }
+}

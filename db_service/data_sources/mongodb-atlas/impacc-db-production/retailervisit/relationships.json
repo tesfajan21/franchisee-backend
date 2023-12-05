@@ -1,0 +1,8 @@
+{
+    "retailerId": {
+        "ref": "#/relationship/mongodb-atlas/impacc-db-production/retailer",
+        "source_key": "retailerId",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "addressLine1": {
+            "bsonType": "string"
+        },
+        "addressLine2": {
+            "bsonType": "string"
+        },
+        "city": {
+            "bsonType": "string"
+        },
+        "country": {
+            "bsonType": "string"
+        },
+        "createdOn": {
+            "bsonType": "date"
+        },
+        "dob": {
+            "bsonType": "string"
+        },
+        "email": {
+            "bsonType": "string"
+        },
+        "firstName": {
+            "bsonType": "string"
+        },
+        "gender": {
+            "bsonType": "string"
+        },
+        "insertDate": {
+            "bsonType": "string"
+        },
+        "isAppTutorialWatched": {
+            "bsonType": "bool"
+        },
+        "isSalesTutorialWatched": {
+            "bsonType": "bool"
+        },
+        "lastName": {
+            "bsonType": "string"
+        },
+        "primaryMobile": {
+            "bsonType": "string"
+        },
+        "secondryMobile": {
+            "bsonType": "string"
+        },
+        "updateDate": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "string"
+        },
+        "zipCode": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition"
+    ],
+    "title": "user"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "mongodb-atlas",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "impacc-db-production",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    }
+}

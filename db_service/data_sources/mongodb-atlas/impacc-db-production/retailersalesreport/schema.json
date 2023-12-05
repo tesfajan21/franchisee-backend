@@ -1,0 +1,52 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "isFullPrice": {
+            "bsonType": "bool"
+        },
+        "numberOfProducts": {
+            "bsonType": "int"
+        },
+        "offerAcceptedDate": {
+            "bsonType": "date"
+        },
+        "offerPlaced": {
+            "bsonType": "bool"
+        },
+        "priceGiven": {
+            "bsonType": "double"
+        },
+        "remarks": {
+            "bsonType": "string"
+        },
+        "retailerId": {
+            "bsonType": "objectId"
+        },
+        "totalOrderAmount": {
+            "bsonType": "double"
+        },
+        "userId": {
+            "bsonType": "string"
+        },
+        "visitDate": {
+            "bsonType": "date"
+        },
+        "visitNo": {
+            "bsonType": "int"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "visitNo",
+        "visitDate",
+        "offerPlaced"
+    ],
+    "title": "retailersalesreport"
+}

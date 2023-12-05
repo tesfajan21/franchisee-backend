@@ -1,0 +1,16 @@
+{
+    "type": "partition",
+    "state": "enabled",
+    "development_mode_enabled": true,
+    "service_name": "mongodb-atlas",
+    "database_name": "impacc-db-production",
+    "partition": {
+        "key": "_partition",
+        "type": "string",
+        "required": true,
+        "permissions": {
+            "read": true,
+            "write": true
+        }
+    }
+}

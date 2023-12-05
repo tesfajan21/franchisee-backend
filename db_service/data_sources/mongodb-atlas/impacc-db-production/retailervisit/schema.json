@@ -1,0 +1,49 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "fullPrice": {
+            "bsonType": "bool"
+        },
+        "numberOfProducts": {
+            "bsonType": "int"
+        },
+        "offerAccepted": {
+            "bsonType": "bool"
+        },
+        "offerAcceptedDate": {
+            "bsonType": "date"
+        },
+        "offerPlaced": {
+            "bsonType": "bool"
+        },
+        "priceGiven": {
+            "bsonType": "double"
+        },
+        "remarks": {
+            "bsonType": "string"
+        },
+        "retailerId": {
+            "bsonType": "objectId"
+        },
+        "visitDate": {
+            "bsonType": "date"
+        },
+        "visitNo": {
+            "bsonType": "int"
+        }
+    },
+    "required": [
+        "_id",
+        "_partition",
+        "visitDate",
+        "offerPlaced",
+        "visitNo"
+    ],
+    "title": "retailervisit"
+}
